@@ -10,3 +10,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.work-link:hover .work-image img,.note-card:hover{transform:none}}
 
 [hidden]{display:none!important}
+
+.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px 24px}.hero-actions .text-link{margin-top:0;min-height:44px}.showcase-note{margin-top:17px;max-width:39ch;font-size:14px;line-height:1.6;color:var(--muted)}.showcase-note a{display:inline-block;margin-top:5px}.hero-actions .button{max-width:100%;gap:20px}
