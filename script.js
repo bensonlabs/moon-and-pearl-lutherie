@@ -20,3 +20,22 @@ document.querySelectorAll('[data-detail]').forEach(button => button.addEventList
   photo.src = `assets/${detail.image}.webp`;
   photo.alt = detail.alt;
 }));
+
+// Load Instagram only after an explicit click; keep a direct link visible.
+const loadReel = document.getElementById('load-reel');
+if (loadReel) {
+  loadReel.hidden = false;
+  loadReel.addEventListener('click', () => {
+    const frame = document.createElement('iframe');
+    frame.className = 'instagram-frame';
+    frame.title = 'Moon & Pearl: turquoise inlays against Granadillo on Instagram';
+    frame.src = 'https://www.instagram.com/reel/CqIoQUSIQ2r/embed/';
+    frame.allow = 'encrypted-media; fullscreen; picture-in-picture';
+    frame.allowFullscreen = true;
+    frame.referrerPolicy = 'strict-origin-when-cross-origin';
+    document.getElementById('reel-frame').appendChild(frame);
+    document.getElementById('reel-cover').hidden = true;
+    document.getElementById('reel-status').textContent = 'Instagram may take a moment to open. If the video is unavailable here, use the direct link below.';
+    frame.focus();
+  }, { once: true });
+}

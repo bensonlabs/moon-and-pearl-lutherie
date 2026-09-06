@@ -30,3 +30,7 @@ Summaries and quotations come from title cards in the supplied 41-second Instagr
 ## Design reference
 
 Roof & Root informs composition, shallow depth, functional color, and modest feedback. No game code or gameplay is included.
+
+## First featured reel
+
+https://www.instagram.com/reel/CqIoQUSIQ2r/ is user-selected. Public Instagram metadata identifies it as the March 23, 2023 post about finished turquoise inlays against Granadillo. The gallery uses the existing workshop inlay photograph as its cover, not a claimed video still. The Instagram embed loads only on click; a direct link remains available if Instagram blocks playback.
