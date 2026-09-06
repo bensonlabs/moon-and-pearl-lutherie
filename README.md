@@ -37,3 +37,13 @@ Study descriptions avoid invented dates, serial numbers, availability, and perfo
 ## Updating
 
 Edit root HTML and shared CSS/JavaScript. Replace photographs in `assets/` with suitable originals and update alt text. Run the checks and rebuild before saving another Sites version. Do not edit `dist/` separately.
+
+## Project inquiries
+
+`inquiry.html` accepts custom fretboard inlay, fretwork, and other neck inquiries. Complete guitar commissions are closed. Homepage availability and all navigation links point visitors toward this scope.
+
+The form posts directly to FormSubmit, which delivers submissions to `moonandpearllutherie@gmail.com`. It works without JavaScript, keeps FormSubmit's default spam check, and uses a honeypot. Reference links are supported; there is no file upload. Successful submissions return to `inquiry-thanks.html`.
+
+**One-time activation required:** submit an inquiry from the public form, then open FormSubmit's confirmation email in the workshop Gmail inbox and activate the form. After activation, submit a clearly labeled test inquiry and confirm receipt and reply-to behavior. Delivery is not verified until that inbox check is complete. A direct email fallback is visible on the form. Do not treat the thank-you page alone as evidence of email delivery.
+
+The form uses an external email-delivery service; the static site itself needs no server or database. If the public domain changes, update the form's absolute `_next` redirect URL.
