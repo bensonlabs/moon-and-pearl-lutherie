@@ -6,7 +6,7 @@ A responsive static website for Justin Benson's Los Angeles lutherie workshop. O
 
 - `index.html`: homepage, workshop detail selector, shop introduction, contact.
 - `cream-electric.html`, `custom-inlays.html`, `maple-stock.html`: instrument and material studies.
-- `gallery.html`: selected Instagram reels with a click-to-load player and direct-link fallback.
+- `gallery.html`: selected Instagram reels with an automatically loaded inline player and direct-link fallback.
 - `notes.html`: summaries of workshop posts from the supplied Instagram recording.
 - `styles.css`, `script.js`: shared styles and progressive enhancement.
 - `assets/`: local logo, photographs, favicon, and licensed Public Sans font.
