@@ -47,3 +47,9 @@ The form posts directly to FormSubmit, which delivers submissions to `moonandpea
 **One-time activation required:** submit an inquiry from the public form, then open FormSubmit's confirmation email in the workshop Gmail inbox and activate the form. After activation, submit a clearly labeled test inquiry and confirm receipt and reply-to behavior. Delivery is not verified until that inbox check is complete. A direct email fallback is visible on the form. Do not treat the thank-you page alone as evidence of email delivery.
 
 The form uses an external email-delivery service; the static site itself needs no server or database. If the public domain changes, update the form's absolute `_next` redirect URL.
+
+## Search discovery
+
+`sitemap.xml` lists the seven public content and inquiry pages at the canonical HTTPS domain. The noindex inquiry thank-you page is excluded. Update the sitemap when adding or removing public pages. `robots.txt` allows crawling and advertises the sitemap. Both are included in the static build. No fabricated last-modified dates or priority values are used.
+
+Search Console requires owner verification in Google. Add the Domain property `moonandpearllutherie.com`, add Google's exact TXT verification value in Squarespace DNS without replacing existing records, and verify. Submit `https://moonandpearllutherie.com/sitemap.xml` in the property's Sitemaps screen. Publishing these files alone does not register the property or guarantee indexing.

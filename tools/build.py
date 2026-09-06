@@ -6,7 +6,7 @@ output = root / 'dist'
 if output.exists():
     shutil.rmtree(output)
 output.mkdir()
-for pattern in ('*.html', '*.css', '*.js', '.nojekyll'):
+for pattern in ('*.html', '*.css', '*.js', 'sitemap.xml', 'robots.txt', '.nojekyll'):
     for source in root.glob(pattern):
         shutil.copy2(source, output / source.name)
 shutil.copytree(root / 'assets', output / 'assets')
