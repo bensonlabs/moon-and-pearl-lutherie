@@ -4,7 +4,7 @@ A responsive static website for Justin Benson's Los Angeles lutherie workshop. O
 
 ## Structure
 
-- `index.html`: homepage, workshop detail selector, shop introduction, contact.
+- `index.html`: homepage, two selected projects, shop introduction, contact.
 - `cream-electric.html`, `custom-inlays.html`, `maple-stock.html`: instrument and material studies.
 - `gallery.html`: selected Instagram reels with an automatically loaded inline player and direct-link fallback.
 - `notes.html`: summaries of workshop posts from the supplied Instagram recording.
@@ -12,7 +12,7 @@ A responsive static website for Justin Benson's Los Angeles lutherie workshop. O
 - `assets/`: local logo, photographs, favicon, and licensed Public Sans font.
 - `tools/build.py`: creates the static Sites package from root source.
 
-No framework, installation, database, or runtime service is required. All page content and navigation work without JavaScript. JavaScript enables the three-way detail selector and updates the footer year. Without JavaScript the shaping detail remains visible.
+No framework, installation, database, or runtime service is required. All page content and navigation work without JavaScript. JavaScript updates the footer year.
 
 ## Preview and validate
 
@@ -44,7 +44,7 @@ Edit root HTML and shared CSS/JavaScript. Replace photographs in `assets/` with 
 
 The form posts directly to FormSubmit, which delivers submissions to `moonandpearllutherie@gmail.com`. It works without JavaScript, keeps FormSubmit's default spam check, and uses a honeypot. Reference links are supported; there is no file upload. Successful submissions return to `inquiry-thanks.html`.
 
-**One-time activation required:** submit an inquiry from the public form, then open FormSubmit's confirmation email in the workshop Gmail inbox and activate the form. After activation, submit a clearly labeled test inquiry and confirm receipt and reply-to behavior. Delivery is not verified until that inbox check is complete. A direct email fallback is visible on the form. Do not treat the thank-you page alone as evidence of email delivery.
+**Activation and delivery confirmed:** the owner activated FormSubmit and supplied a received test inquiry on September 6, 2026. Reply-to behavior has not been independently verified. A direct email fallback is visible on the form. Do not treat the thank-you page alone as evidence of email delivery.
 
 The form uses an external email-delivery service; the static site itself needs no server or database. If the public domain changes, update the form's absolute `_next` redirect URL.
 
@@ -53,3 +53,7 @@ The form uses an external email-delivery service; the static site itself needs n
 `sitemap.xml` lists the seven public content and inquiry pages at the canonical HTTPS domain. The noindex inquiry thank-you page is excluded. Update the sitemap when adding or removing public pages. `robots.txt` allows crawling and advertises the sitemap. Both are included in the static build. No fabricated last-modified dates or priority values are used.
 
 Search Console requires owner verification in Google. Add the Domain property `moonandpearllutherie.com`, add Google's exact TXT verification value in Squarespace DNS without replacing existing records, and verify. Submit `https://moonandpearllutherie.com/sitemap.xml` in the property's Sitemaps screen. Publishing these files alone does not register the property or guarantee indexing.
+
+## Homepage simplification
+
+The homepage now presents an introduction, two selected projects (inlays first), the workshop, and inquiries. Decorative shop-note cards, the slogan strip, material-stock card, and detail selector were removed. The existing notes and maple-stock URLs remain available for old links, but are no longer promoted in the main navigation or homepage.
