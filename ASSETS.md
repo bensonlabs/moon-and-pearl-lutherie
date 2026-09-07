@@ -23,6 +23,8 @@ Original captions include “Vintage inspired 1956 Telecaster,” “Roasted fla
 
 Public Sans variable font: https://github.com/google/fonts/tree/main/ofl/publicsans. Its SIL Open Font License is included in `assets/FONT-LICENSE.txt`.
 
+Jost variable font for headings: https://github.com/google/fonts/tree/main/ofl/jost. Its SIL Open Font License is included in `assets/JOST-LICENSE.txt`. Jost is a geometric companion to the outlined logo, not an identified match to its original lettering. Both fonts are self-hosted.
+
 ## Workshop notes
 
 Summaries and quotations come from title cards in the supplied 41-second Instagram recording. It contains a scrolling grid, not complete demonstrations. Notes therefore do not claim tested outcomes or provide unsupported step-by-step procedures. They link to the account rather than guessing reel URLs.

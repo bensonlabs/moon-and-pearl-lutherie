@@ -9,7 +9,7 @@ A responsive static website for Justin Benson's Los Angeles lutherie workshop. O
 - `gallery.html`: selected Instagram reels with an automatically loaded inline player and direct-link fallback.
 - `notes.html`: summaries of workshop posts from the supplied Instagram recording.
 - `styles.css`, `script.js`: shared styles and progressive enhancement.
-- `assets/`: local logo, photographs, favicon, and licensed Public Sans font.
+- `assets/`: local logo, photographs, favicon, and licensed Public Sans body font and Jost heading font.
 - `tools/build.py`: creates the static Sites package from root source.
 
 No framework, installation, database, or runtime service is required. All page content and navigation work without JavaScript. JavaScript updates the footer year.
