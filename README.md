@@ -30,7 +30,7 @@ The private Sites version uses `dist/` and the project identity in `.openai/host
 
 See `ASSETS.md` for origins. Photographs are from the owner's existing public website. The logo was exported from the supplied Illustrator artwork, retaining the lettering as paths.
 
-Contact links use `moonandpearl.lutherie@gmail.com` and `@moonandpearl.lutherie`, as published on the existing website. North Hollywood is the published shop location. Historical service pricing has not been republished as current pricing.
+Contact links use `moonandpearl.lutherie@gmail.com` and `@moonandpearl.lutherie`, as published on the existing website. North Hollywood is the published shop location. Current owner-approved service prices are listed in the homepage Services & pricing section. Strings and parts are extra unless specified; estimates are confirmed after inspection. Floyd Rose and other double-locking tremolo systems are excluded.
 
 Study descriptions avoid invented dates, serial numbers, availability, and performance specifications. Instagram summaries link to the account because individual post permalinks were not present in the recording.
 
@@ -40,7 +40,7 @@ Edit root HTML and shared CSS/JavaScript. Replace photographs in `assets/` with 
 
 ## Project inquiries
 
-`inquiry.html` accepts custom fretboard inlay, fretwork, and other neck inquiries. Complete guitar commissions are closed. Homepage availability and all navigation links point visitors toward this scope.
+`inquiry.html` accepts setup, repair, electronics, custom fretboard inlay, fretwork, and other neck inquiries. Complete guitar commissions are closed. Homepage availability and all navigation links point visitors toward this scope.
 
 The form posts directly to FormSubmit, which delivers submissions to `moonandpearl.lutherie@gmail.com`. It works without JavaScript, keeps FormSubmit's default spam check, and uses a honeypot. Reference links are supported; there is no file upload. Successful submissions return to `inquiry-thanks.html`.
 
