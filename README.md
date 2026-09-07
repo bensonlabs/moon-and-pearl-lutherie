@@ -30,7 +30,7 @@ The private Sites version uses `dist/` and the project identity in `.openai/host
 
 See `ASSETS.md` for origins. Photographs are from the owner's existing public website. The logo was exported from the supplied Illustrator artwork, retaining the lettering as paths.
 
-Contact links use `moonandpearllutherie@gmail.com` and `@moonandpearl.lutherie`, as published on the existing website. North Hollywood is the published shop location. Historical service pricing has not been republished as current pricing.
+Contact links use `moonandpearl.lutherie@gmail.com` and `@moonandpearl.lutherie`, as published on the existing website. North Hollywood is the published shop location. Historical service pricing has not been republished as current pricing.
 
 Study descriptions avoid invented dates, serial numbers, availability, and performance specifications. Instagram summaries link to the account because individual post permalinks were not present in the recording.
 
@@ -42,7 +42,7 @@ Edit root HTML and shared CSS/JavaScript. Replace photographs in `assets/` with 
 
 `inquiry.html` accepts custom fretboard inlay, fretwork, and other neck inquiries. Complete guitar commissions are closed. Homepage availability and all navigation links point visitors toward this scope.
 
-The form posts directly to FormSubmit, which delivers submissions to `moonandpearllutherie@gmail.com`. It works without JavaScript, keeps FormSubmit's default spam check, and uses a honeypot. Reference links are supported; there is no file upload. Successful submissions return to `inquiry-thanks.html`.
+The form posts directly to FormSubmit, which delivers submissions to `moonandpearl.lutherie@gmail.com`. It works without JavaScript, keeps FormSubmit's default spam check, and uses a honeypot. Reference links are supported; there is no file upload. Successful submissions return to `inquiry-thanks.html`.
 
 **Activation and delivery confirmed:** the owner activated FormSubmit and supplied a received test inquiry on September 6, 2026. Reply-to behavior has not been independently verified. A direct email fallback is visible on the form. Do not treat the thank-you page alone as evidence of email delivery.
 
@@ -57,3 +57,5 @@ Search Console requires owner verification in Google. Add the Domain property `m
 ## Homepage simplification
 
 The homepage now presents an introduction, two selected projects (inlays first), the workshop, and inquiries. Decorative shop-note cards, the slogan strip, material-stock card, and detail selector were removed. The existing notes and maple-stock URLs remain available for old links, but are no longer promoted in the main navigation or homepage.
+
+The owner corrected the published Gmail spelling to `moonandpearl.lutherie@gmail.com`. All email links and the form endpoint use that spelling. FormSubmit may request activation again for the updated endpoint; delivery to that endpoint has not yet been rechecked.
