@@ -24,3 +24,5 @@
 
 /* Service prices follow the workshop's simple ruled layout. */
 .services-section{border-top:1px solid var(--line)}.service-prices{margin:0}.service-prices>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}.service-prices dt{font-weight:600}.service-prices dt span{display:block;max-width:65ch;margin-top:6px;font-size:14px;font-weight:400;color:var(--muted)}.service-prices dd{margin:0;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.pricing-notes{margin-top:24px;color:var(--muted);font-size:14px}.pricing-notes p{max-width:75ch}.pricing-notes p+p{margin-top:12px}@media(max-width:520px){.service-prices>div{gap:12px}.service-prices dd{font-size:14px}.service-prices dt span{font-size:14px}}@media(max-width:360px){.service-prices>div{grid-template-columns:1fr;gap:6px}.service-prices dd{text-align:left}}
+
+.hero-reel{width:100%;max-width:440px;justify-self:center}.hero-reel .instagram-frame{height:760px}@media(max-width:760px){.hero-reel .instagram-frame{height:710px}}
